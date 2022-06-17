@@ -14,6 +14,11 @@
             border: 1px solid black;
         }
 
+        body {
+            position: relative;
+            background-color: skyblue;
+        }
+
         .baiSe {
             background-color: #fff;
         }
@@ -21,28 +26,46 @@
         .touXiang {
             width: 100px;
             height: 100px;
-            margin: 200px auto;
+            margin: 140px auto;
             border-radius: 50%;
+            background-image: url(https://my-website-2ggm2f0238799cf2-1312536266.tcloudbaseapp.com/touxiang.jpg);
+            background-size: 100px;
+        }
+
+        .name {
+            width: 100px;
+            height: 20px;
+            color: black;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: center;
+            position: absolute;
+            top: 260px;
+            left: 50%;
+            margin-left: -50px;
+            border: none;
         }
 
         .jianJie {
+            width: 100%;
+            height: 200px;
             background-color: red;
             height: 200px;
-
+            position: absolute;
+            top: 700px;
         }
     </style>
 </head>
 
 <body>
-    <div>
-        <!-- 头像 -->
-        <div class="baiSe touXiang">
-            <img src="https://my-website-2ggm2f0238799cf2-1312536266.tcloudbaseapp.com/_init_tcb-env.js" alt="">
-        </div>
+    <!-- 头像 -->
+    <div class="baiSe touXiang">
+        <!-- 姓名 -->
+        <div class="name">zmlzml</div>
         <!-- 主区域 -->
         <div class="baiSe jianJie"></div>
     </div>
-
 </body>
 
 </html>
